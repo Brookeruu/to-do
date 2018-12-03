@@ -18,9 +18,9 @@ describe(Task) do
       expect(task1).to(eq(task2))
     end
   end
-end
 
-describe(Task) do
+
+
   describe("#save") do
     it("adds a task to the array of saved tasks") do
       test_task = Task.new({:description => "learn SQL"})
