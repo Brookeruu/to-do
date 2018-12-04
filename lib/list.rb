@@ -24,6 +24,6 @@ class List
 
   def ==(another_list)
    self.name().==(another_list.name()).&(self.id().==(another_list.id()))
-  end
+ end
 
 end
